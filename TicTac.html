@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Tic Tac</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Welcome To my website">
+	 <link rel="stylesheet" href="TicTac.css">
+  <style>
+	  
+	 </style>
+ </head>
+ <body>
+	 <section class="boss">
+		 <label id="Player1">Player1</label>
+		 <label id="Player2">Player2</label>
+		 <label id="scoreP1">0</label>
+		 <label id="scoreP2">0</label>
+		 
+		 <section class="container">
+			 <div id="box1"></div>
+			 <div id="box2"></div>
+			 <div id="box3"></div>
+			 <div id="box4"></div>
+			 <div id="box5"></div>
+			 <div id="box6"></div>
+			 <div id="box7"></div>
+			 <div id="box8"></div>
+			 <div id="box9"></div>
+		 </section> 
+		 <section class="container2">
+			 <div id="B1" data-num="1"></div>
+			 <div id="B2" data-num="2"></div>
+			 <div id="B3" data-num="3"></div>
+			 <div id="B4" data-num="4"></div>
+			 <div id="B5" data-num="5"></div>
+			 <div id="B6" data-num="6"></div>
+			 <div id="B7" data-num="7"></div>
+			 <div id="B8" data-num="8"></div>
+			 <div id="B9" data-num="9"></div>
+		 </section> 
+		 <img src="icon/replay.png" id="replay">
+		 <div id="messageWin" class="msgwin"> You Wiin !!!</div>
+		 <div id="messageDraw" class="msgdraw"> DRAWWw!!!</div>
+		 <div id="myturn"></div>
+		 <button id="return">Return</button>
+	 </section>
+	 
+	 <section  id="info">
+		 <input type="text" placeholder="Player1" id="p1">
+		 <input type="text" placeholder="Player2" id="p2">
+		 <div id="msgname">please Enter Name</div>
+		 <button id="letgo">Let's Go</button>
+		 <button id="returnInfo">Return</button>
+		 <label>Vs</label>
+	 </section>
+
+	 <section  id="infoVsComp">
+		 <input type="text" placeholder="Player" id="plyr">
+		 <div id="msgname2">please Enter Name</div>
+		 <button id="letgo2">Let's Go</button>
+		 <button id="returnInfo2">Return</button>
+		 <label>Vs</label>
+	 </section>
+
+	 <section id="begin">
+		 <button id="startgame">P1 vs P2</button>
+		 <button id="vsComp">P vs Computer</button>
+		 <button id="option">Options</button>
+		<a href="" ><button id="quit">Quit</button></a>
+	 </section>
+	 <section id="loadpage">
+		 <div id="loading"></div>
+		 <img src="background/backload.gif">
+		 <label id="lab1">100%</label>
+		 <label id="lab2">Click here To continue</label>
+	 </section>
+	
+	   <script src="jquery-3.5.1.min.js"></script>
+	   <script src="TicTac.js"></script>
+ </body>
+</html>
